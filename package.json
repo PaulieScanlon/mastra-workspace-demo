@@ -8,7 +8,7 @@
     "dev": "mastra dev",
     "build": "mastra build",
     "start": "mastra start",
-    "clean": "rm -f diagrams/svgs/*.svg"
+    "clean": "rm -f diagram-demo/svg/*.svg"
   },
   "keywords": [],
   "author": "",

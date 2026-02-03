@@ -16,12 +16,12 @@ ALWAYS activate the relevant skill before working. For Mastra-related diagrams, 
 The render script is at: skills/beautiful-mermaid/scripts/render.ts
 Do NOT use $MERMAID_SCRIPTS_PATH - that variable does not exist.
 
-Save all diagrams to the svgs/ directory.
+Save all diagrams to the svg/ directory.
 
 CRITICAL: ALL flowcharts MUST use TD (top-down) direction. Always start with: graph TD
 Never use LR, RL, or BT directions.
 `,
-  model: "openai/gpt-5.2",
+  model: "anthropic/claude-opus-4-5",
   workspace: diagramWorkspace,
   memory: new Memory({
     options: {
